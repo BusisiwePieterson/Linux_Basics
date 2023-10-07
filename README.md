@@ -1,8 +1,5 @@
 # Linux_Basics
 
-<p align="center">
-  <img src="" width='400' height='200'>
-</p>
 
 Linux Basics for devops
 
