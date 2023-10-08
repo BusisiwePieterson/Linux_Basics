@@ -1,5 +1,11 @@
 # Linux_Basics
 
 
-Linux Basics for devops
+> Linux basic for every DevOps Engineer
+
+## File Manipulation
+
+>1. sudo
+
+
 
