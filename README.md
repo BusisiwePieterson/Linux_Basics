@@ -6,26 +6,42 @@
 ## File Manipulation
 
 - **sudo**
+
+  `sudo (command)`
   > provides root priviledges to the user
 
   ![Image](images/Screenshot_1.png)
 
 - **pwd**
+
+  `pwd [option]`
+
   > provides root priviledges to the user
 
   ![Image](images/Screenshot_2.png)
 
 - **cd**
+
+  `cd [Filename]` or `cd /home/ubuntu/Filename`
   > provides root priviledges to the user
 
   ![Image](images/Screenshot_3.png)
   
 - **ls**
+
+  `ls /home/ubuntu`
+  `ls -R`
+  `ls a`
+  `ls -lh`
+
   > provides root priviledges to the user
 
   ![Image](images/Screenshot_4.png)
 
 - **cat**
+
+  `cat filename`
+  `cat filename filename2 > filename3`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_5.png)
