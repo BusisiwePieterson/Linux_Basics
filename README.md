@@ -5,7 +5,9 @@
 
 ## File Manipulation
 
->1. sudo
+- **sudo**
+  > provides root priviledges to the user
+  
 
 
 
