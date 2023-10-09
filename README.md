@@ -144,26 +144,34 @@
   ![Image](images/Screenshot_19.png)
 
 - **head**
+
+  `head [option] [file]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_21.png)
 
 - **tail**
+
+  `tail [option] [file]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_22.png)
 
-  `tail [option] [file]`
+  `tail -n [file]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_23.png)
 
 - **diff**
+
+  `diff [option] file1 file2`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_24.png)
 
 - **tar**
+  
+  `tar [options] [archive_file] [file or directory]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_25.png)
@@ -171,99 +179,143 @@
 ## File Permissions and Ownership
 
 - **chmod**
+
+  `chmod [option] [permission] [file_name]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_26.png)
 
 - **chwon**
+
+  `chwon [option] owner[:group] file(s)`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_27.png)
 
 - **jobs**
+  `jobs [options] jobID`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_28.png)
 
 - **kill**
+
+  `ps ux`
+  `kill [signal_option] pid`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_29.png)
 
 - **ping**
+
+  `ping [option] [hostname_or_IP_address]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_30.png)
 
 - **wget**
+
+  `wget [option] [url]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_31.png)
 
 - **uname**
+
+  uname [option]
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_32.png)
 
 - **top**
+
+  `top`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_33.png)
 
 - **history**
+
+  `history [option]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_34.png)
   ![Image](images/Screenshot_35.png)
 
 - **man**
+
+  `man [command_name]`
+   `man [option] [section_number] [command_name]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_36.png)
 
 - **echo**
+
+  `echo [option] [string]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_37.png)
 
 - **zip, unzip**
+
+   `zip [options] zipfile file1 file2`
+   `unzip [option] file_name.zip`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_38.png)
   ![Image](images/Screenshot_39.png)
 
 - **hostname**
+
+  `hostname [option]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_40.png)
 
 - **useradd, userdel**
+
+  `useradd [option] username`
+  `userdel username`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_41.png)
   ![Image](images/Screenshot_42.png)
 
 - **apt-get**
+
+  `apt-get [options] (command)`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_43.png)
 
 - **nano, vi, jed**
+ 
+  `vi [filename]`
+  `nano [filename]`
+  `jed [filename]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_44.png)
 
 - **alias, unalias**
+
+   `alias Name=String`
+   `unalias [alias_name]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_45.png)
 
 - **su**
+
+  `su [options] [username [argument]]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_46.png)
 
 - **htop**
+
+  `htop [options]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_47.png)
