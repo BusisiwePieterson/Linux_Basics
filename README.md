@@ -18,6 +18,7 @@
   > displays the current working directory
 
   `pwd [option]`
+  
   ![Image](images/Screenshot_2.png)
 
 - **cd**
