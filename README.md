@@ -1,7 +1,10 @@
 # Linux_Basics
 
+> What is Linux?
 
-> Linux basic for every DevOps Engineer
+Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
+
+``For a beginner the Linux terminal can be quite scary and intimidating. Here are 40 basic Linux commands for your daily DevOps tasks.``
 
 ## File Manipulation
 
@@ -18,7 +21,7 @@
   > displays the current working directory
 
   `pwd [option]`
-  
+
   ![Image](images/Screenshot_2.png)
 
 - **cd**
@@ -26,6 +29,7 @@
   > changes the curent directory to the specified path
 
   `cd [Filename]` or `cd /home/ubuntu/Filename`
+
   ![Image](images/Screenshot_3.png)
   
 - **ls**
@@ -137,16 +141,17 @@
 
 - **df**
 
+   > command to check a Linux systems's disk space usage
+
   `df [options] [file]`
   `df -h`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_18.png)
 
 - **du**
 
+    > used to check a file or directory's storage consumption.
   `du /home`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_19.png)
 
@@ -188,80 +193,93 @@
 
 - **chmod**
 
+  > modifies directory or file permissions
+
   `chmod [option] [permission] [file_name]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_26.png)
 
 - **chwon**
 
+  > The chown command lets you change a file, directory, or symbolic link’s ownership to the specified username.
+
   `chwon [option] owner[:group] file(s)`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_27.png)
 
 - **jobs**
+
+  > displays a shell's running processes with their statuses. The command will return an empty ouptut if your system doesn't have a running job.
+
   `jobs [options] jobID`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_28.png)
 
 - **kill**
 
+  > command to terminate an unresponsive program using its identification number (PID)
+    - `ps ux` : use to check the PID
+
   `ps ux`
   `kill [signal_option] pid`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_29.png)
 
 - **ping**
 
+   > lets you check whetehr a network or server is reachable, useful for checking connectivity.
+
   `ping [option] [hostname_or_IP_address]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_30.png)
 
 - **wget**
 
+   > command to download files from the internet using HTTP, HTTPS or FTP protocols.
+
   `wget [option] [url]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_31.png)
 
 - **uname**
 
-  uname [option]
-  > provides root priviledges to the user
+  > prints information about your machine, including hardware, system name.
+
+  `uname [option]`
   
   ![Image](images/Screenshot_32.png)
 
 - **top**
 
+  > displays running processes and the system's real-time condition. Helps identify resource-intensive processes.
+
   `top`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_33.png)
 
 - **history**
 
+  > lists previously executed commands, useful for reusing commands without rewriting them.
+
   `history [option]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_34.png)
   ![Image](images/Screenshot_35.png)
 
 - **man**
 
+  > provides a manual of linux utilities, can be used to look up a commands descriptions and options.
+
   `man [command_name]`
    `man [option] [section_number] [command_name]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_36.png)
 
 - **echo**
 
+  > displays text as standard output
+
   `echo [option] [string]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_37.png)
 
@@ -278,16 +296,18 @@
 
 - **hostname**
 
+   > displays the system's hostname
+
   `hostname [option]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_40.png)
 
 - **useradd, userdel**
 
+  > Use **useradd** to create a new Linux user account and change its password with the **passwd** command
+
   `useradd [option] username`
   `userdel username`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_41.png)
   ![Image](images/Screenshot_42.png)
@@ -295,7 +315,7 @@
 - **apt-get**
 
   `apt-get [options] (command)`
-  > provides root priviledges to the user
+  > lets you manage, update, remove and install software including its dependencies. Requires sudo privileges.
   
   ![Image](images/Screenshot_43.png)
 
@@ -311,28 +331,32 @@
 
 - **alias, unalias**
 
+  > instructs the shell to replace a string with another to  create a shortcut for a program.
+    - `unalias [alias_name]` : delets the existing alias
+
    `alias Name=String`
    `unalias [alias_name]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_45.png)
 
 - **su**
 
   `su [options] [username [argument]]`
-  > provides root priviledges to the user
+  > lets you run a program as a different user.
   
   ![Image](images/Screenshot_46.png)
 
 - **htop**
 
+  > monitors system resources and server processes. Has more features than **top**, it offers mouse indicators and visual indicators.
+
   `htop [options]`
-  > provides root priviledges to the user
   
   ![Image](images/Screenshot_47.png)
 
 - **ps**
-  > provides root priviledges to the user
+
+  > creates a snapshot of all running processes in your system.
   
   ![Image](images/Screenshot_48.png)
 
