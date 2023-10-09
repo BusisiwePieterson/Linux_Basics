@@ -1,10 +1,16 @@
 # Linux_Basics
 
+![Image](linux-Cheat-Sheet.png)
+
+**For a beginner the Linux terminal can be quite scary and intimidating. Here are 40 basic Linux commands for your daily DevOps tasks. But first, lets understand what Linux is.**
+
 > **What is Linux?**
 
-Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.   [reference](https://www.linux.com/what-is-linux/)
+Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.   
 
-For a beginner the Linux terminal can be quite scary and intimidating. Here are 40 basic Linux commands for your daily DevOps tasks.
+*source : [click here](https://www.linux.com/what-is-linux/)*
+
+
 
 ## File Manipulation
 
