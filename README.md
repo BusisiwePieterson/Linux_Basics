@@ -2,7 +2,9 @@
 
 ![Image](linux-Cheat-Sheet.png)
 
-**For a beginner the Linux terminal can be quite scary and intimidating. Here are 40 basic Linux commands for your daily DevOps tasks. But first, lets understand what Linux is.**
+
+**For a beginner the Linux terminal can be quite scary and intimidating. Here are <span style="color: green;">40 Basic Linux Commands</span> for your daily DevOps tasks. But first, lets understand what Linux is.**
+
 
 > **What is Linux?**
 
