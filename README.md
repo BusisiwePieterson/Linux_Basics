@@ -3,7 +3,7 @@
 ![Image](linux-Cheat-Sheet.png)
 
 
-**For a beginner the Linux terminal can be quite scary and intimidating. Here are <span style="color: green;">40 Basic Linux Commands</span> for your daily DevOps tasks. But first, lets understand what Linux is.**
+<p>For a beginner the Linux terminal can be quite scary and intimidating. Here are <span style="color: green;">40 Basic Linux Commands</span> for your daily DevOps tasks. But first, lets understand what Linux is.<p/>
 
 
 > **What is Linux?**
@@ -330,13 +330,17 @@ Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one o
 
 - **nano, vi, jed**
 
-   > editing text editors for Linux. If the target file does not exist, these editors will create one.
+   > editing text editors for Linux. If the target file does not exist, these editors will create one. 
+    - **jed** must be installed manually
+   
  
   `vi [filename]`
   `nano [filename]`
   `jed [filename]`
   
   ![Image](images/Screenshot_44.png)
+  ![Image](images/Screenshot_75.png)
+
 
 - **alias, unalias**
 
