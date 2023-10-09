@@ -1,10 +1,10 @@
 # Linux_Basics
 
-> What is Linux?
+> **What is Linux?**
 
-Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
+Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.   [reference](https://www.linux.com/what-is-linux/)
 
-``For a beginner the Linux terminal can be quite scary and intimidating. Here are 40 basic Linux commands for your daily DevOps tasks.``
+For a beginner the Linux terminal can be quite scary and intimidating. Here are 40 basic Linux commands for your daily DevOps tasks.
 
 ## File Manipulation
 
@@ -314,8 +314,9 @@ Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one o
 
 - **apt-get**
 
-  `apt-get [options] (command)`
   > lets you manage, update, remove and install software including its dependencies. Requires sudo privileges.
+
+  `apt-get [options] (command)`
   
   ![Image](images/Screenshot_43.png)
 
