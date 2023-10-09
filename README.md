@@ -42,14 +42,20 @@
 
   `cat filename`
   `cat filename filename2 > filename3`
+  `tac filename`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_5.png)
 
-  `tac`
+  > description over here
+
   ![Image](images/Screenshot_6.png)
 
 - **cp**
+
+  `cp file1 file2 /home/username/Directory`
+  `cp filename filename`
+  `cp -R /home/username/Directory /home/username/Directory_backup`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_7.png)
@@ -63,51 +69,76 @@
   ![Image](images/Screenshot_9.png)
 
 - **mv**
+
+  `mv filename /home/username/Directory`
+  `mv filename newfile`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_10.png)
 
 - **mkdir**
+  
+  `mkdir [option] directory_name`
+  `mkdir Directory/File`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_11.png)
 
 - **rmdir**
+
+  `rmdir -p Directory/File`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_12.png)
 
 - **rm**
+
+  `rm filename`
+  `rm filename1 filename2 filename3`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_13.png)
 
 - **touch**
+
+  `touch filename`
+  
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_14.png)
 
 - **locate**
+
+  `locate -i filename`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_15.png)
 
 - **find**
+
+  `find [option] [path] [expression]`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_16.png)
 
 - **grep**
+
+  `grep [option] filename`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_17.png)
 
 - **df**
+
+  `df [options] [file]`
+  `df -h`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_18.png)
 
 - **du**
+
+  `du /home`
   > provides root priviledges to the user
   
   ![Image](images/Screenshot_19.png)
